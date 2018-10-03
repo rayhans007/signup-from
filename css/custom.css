@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.signup-form{
+    width: 100%;
+    float: left;
+    background: #152733;
+    height: 100vh;
+    position: relative;
+}
+.form-section{
+    width: 350px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.form-section img{
+    
+width: 30%;
+    
+margin-bottom: 70px;
+    
+margin-top: 30px;
+}
+.form-section h3{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.form-section p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0 40px;
+}
+.form-section strong{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    display: block;
+}
+
+form{}
+form input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+form input[type="submit"]{
+
+width: auto;
+
+text-transform: uppercase;
+
+font-weight: 500;
+
+background: #2196F3;
+
+color: #ffffff;
+
+padding: 8px 35px;
+
+border-radius: 8px;
+
+margin-top: 15px;
+}
+.register_option{
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+.register_option span{
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+.register_option ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.register_option ul li{
+    float: left;
+    list-style: none;
+}
+.register_option ul li a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+}
